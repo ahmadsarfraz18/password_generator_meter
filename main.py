@@ -36,7 +36,7 @@ if 'dark_mode' not in st.session_state:
     st.session_state.dark_mode = False
 
 # Page Config
-st.set_page_config(page_title="Secure Password Generator", layout="wide")
+st.set_page_config(page_title="Password Strength Meter", layout="wide")
 
 # Custom CSS for modern UI
 st.markdown(
