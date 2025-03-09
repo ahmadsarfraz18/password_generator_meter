@@ -58,7 +58,7 @@ if st.sidebar.button("🌙 Toggle Dark Mode"):
     st.rerun()
 
 # UI Title
-st.markdown("<div class='main-title'>🔐 Secure Password Generator</div>", unsafe_allow_html=True)
+st.markdown("<div class='main-title'>🔐 Password Strength Meter </div>", unsafe_allow_html=True)
 
 # Sidebar Options
 st.sidebar.header("⚙️ Customize Your Password")
